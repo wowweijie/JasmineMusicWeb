@@ -54,7 +54,8 @@ div.sticky {
   max-width: inherit;
   width: 100%;
   position: fixed;
-  top: 0
+  top: 0;
+  z-index: 1
 }
 
 nav a.router-link-exact-active {
