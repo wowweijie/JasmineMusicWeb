@@ -5,6 +5,7 @@ import MarginPage from '@/components/MarginPage.vue'
 
 <template>
   <main>
+    <img src="../assets/ConcertoPhoto.jpg">
     <MarginPage>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta non justo vitae efficitur. 
     Ut vitae ultrices ipsum. Duis vitae ipsum metus. Aenean sagittis elit nibh, id congue neque ultrices in. 
@@ -75,3 +76,10 @@ import MarginPage from '@/components/MarginPage.vue'
   </MarginPage>
   </main>
 </template>
+
+<style scoped>
+img {
+  width: 100%;
+  height: auto;
+}
+</style>
