@@ -37,7 +37,7 @@ onMounted(() => {
 <style scoped>
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--color-text);
 }
 
 a.router-link-active {
@@ -55,7 +55,8 @@ div.sticky {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1
+  z-index: 1;
+  background: var(--jmw-bg-cream)
 }
 
 nav a.router-link-exact-active {

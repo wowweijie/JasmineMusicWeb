@@ -25,7 +25,7 @@ import Header from "./components/Header.vue";
   justify-content: center;
   max-width: 1024px;
   margin: auto;
-  background-color: #faf2e8;
+  background-color: var(--jmw-bg-cream)
 }
 
 header {
