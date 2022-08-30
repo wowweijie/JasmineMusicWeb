@@ -8,7 +8,7 @@ const stickyNav = ref(false);
 function handleScroll(event) {
   // Any code to be executed when the window is scrolled
   // console.log("calling handleScroll");
-  if (window.scrollY > 75){
+  if (window.scrollY > 150){
     // console.log("sticky");
     stickyNav.value = true;
   }
@@ -35,6 +35,15 @@ onMounted(() => {
 </template>
 
 <style scoped>
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.router-link-active {
+  text-decoration: underline;
+}
+
 nav {
   font-size: 18px;
   text-align: center;
