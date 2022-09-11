@@ -5,7 +5,7 @@ import MarginPage from '@/components/MarginPage.vue'
 
 <template>
   <main>
-    <img src="../assets/ConcertoPhoto.jpg">
+    <img :style="{ 'margin': '4px 0px'}" src="https://drive.google.com/uc?id=193y4-7w53sQovSd8lPT850VcU6xABV6m">
     <MarginPage>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta non justo vitae efficitur. 
     Ut vitae ultrices ipsum. Duis vitae ipsum metus. Aenean sagittis elit nibh, id congue neque ultrices in. 

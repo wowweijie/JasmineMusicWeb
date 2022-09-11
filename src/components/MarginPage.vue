@@ -2,9 +2,13 @@
 import { reactive } from 'vue'
 
 const props = defineProps({
-  margin: {
+  hmargin: {
     type: Number,
     default: 30,
+  },
+  vmargin: {
+    type: Number,
+    default: 0,
   },
   fontSize: {
     type: Number,
@@ -13,7 +17,7 @@ const props = defineProps({
 });
 
 const styleObject = reactive({
-    margin: `0 ${props.margin}px`,
+    margin: `${props.hmargin}px ${props.hmargin}px`,
     fontSize: `${props.fontSize} px`
 })
 

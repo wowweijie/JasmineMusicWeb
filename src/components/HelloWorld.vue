@@ -10,7 +10,7 @@ defineProps({
 <template>
   <div class="header">
     <h1 class="title">JASMINE KHOO</h1>
-    <h3>Piano &nbsp;&nbsp; &centerdot; &nbsp;&nbsp; Violin</h3>
+    <h3>Piano Teacher&nbsp;&nbsp; &centerdot; &nbsp;&nbsp;Clementi </h3>
   </div>
 </template>
 

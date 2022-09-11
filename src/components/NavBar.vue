@@ -30,6 +30,9 @@ onMounted(() => {
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/about">Fees</RouterLink>
+      <RouterLink to="/gallery">Gallery</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
     </nav>
   </div>
 </template>
@@ -37,7 +40,7 @@ onMounted(() => {
 <style scoped>
 a {
   text-decoration: none;
-  color: var(--color-text);
+  color: #555555;
 }
 
 a.router-link-active {
